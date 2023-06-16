@@ -1,0 +1,11 @@
+{% extends 'apisite/base.html' %}
+
+
+{% block content %}
+{% for s, p in data_list.items %}
+    <div class="box">
+      <h1>{{ s }}</h1>
+      <h2>{{ p }}</h2>
+    </div>
+{% endfor %}
+{% endblock %}
