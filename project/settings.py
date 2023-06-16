@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-@h)4n-i3i=2-wqf7v%5mmg_rg@8*p-3-fz(yo7azqshbjkxala
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['localhost', '.pythonanywhere.com', '{|ユーザ名|}.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '.pythonanywhere.com', 'YenCrypto.pythonanywhere.com']
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
